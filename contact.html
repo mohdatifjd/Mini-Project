@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(/Image/fullscreen.jpg)
+            /* background-color: #f5b5b5d0; */
+        }
+        .container-box{
+            width: 500px;
+            background-color: #ffffffe0;
+            box-shadow: #999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            padding-left: 40px;
+            
+        }
+        .form{
+            margin: 35px;
+        }
+        .input-field{
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 1px solid #777;
+            border-radius: 10px;
+        }
+        .textarea-field{
+            height: 150px;
+            padding-top: 10px;
+        }
+        button{
+            color: black;
+            background-color: aquamarine;
+            margin-top: 18px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            top: 50%;
+            left: 50%;
+            /* transform: translate(-50%,-50%); */
+            align-items: center;
+            justify-content: center;
+            display: grid;
+            margin: 0 auto;
+
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container-box">
+    <form action="">
+        <input type="text" class="input-field" placeholder=" Your Name">
+        <input type="email" class="input-field" placeholder=" Your Email">
+        <input type="number" class="input-field" placeholder=" Your Contact No">
+        <textarea type="text" class="input-field textarea-field" placeholder="Your Messege"></textarea>
+        <div class="btn"><button><a href="web page.html"> Submit Messege</a></button></div>
+    </form>
+   </div> 
+</body>
+</html>
